@@ -11,5 +11,17 @@ html {
 
 body {
     line-height: 1;
+    min-height: 100vh;
     background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
 }
